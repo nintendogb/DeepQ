@@ -1,0 +1,24 @@
+Just using flickr.photos.search API to fulfill requirement.
+You need to request key at flickr's page. PS yahoo account is required.
+https://www.flickr.com/services/api/keys/
+
+Using python date library to get recently 2 days string.
+flickr.photos.search default return page 1's result.
+User id can be get from below.
+https://www.webpagefx.com/tools/idgettr/ 
+
+
+
+1. Portrait
+
+flickr.photos.search(text='Portrait', per_page=1000, extras=extras, min_upload_date = twoDaysAgo, max_upload_date = today)
+
+2. Only one face
+
+flickr.photos.search(text='Only one face', per_page=1000, extras=extras, min_upload_date = twoDaysAgo, max_upload_date = today)
+
+3. 100 person
+flickr.photos.search(user_id=id, per_page=10, extras=extras, min_upload_date = twoDaysAgo, max_upload_date = today)
+
+4. Full face picture
+flickr.photos.search(text='Full face picture', per_page=1000, extras=extras, min_upload_date = twoDaysAgo, max_upload_date = today)

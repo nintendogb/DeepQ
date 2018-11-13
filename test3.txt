@@ -1,0 +1,49 @@
+1. Login test:
+    - 1. Login with correct account and password.
+    - 2. Login with incorrect account and password.
+
+2. Main page test:
+    - 1. Give a star to a picture and check it.
+    - 2. Leave comment to a picture and check it.
+    - 3. Reply to a comment and check it.
+    - 4. Share picture with share button and check it.
+    - 5. Click a picture and see if it can resize on screen correctly.
+    - 6. Click 3 dots to see if you can follow this publisher.
+    - 7. Click publisher of the picture to see if your jumping to that publisher's page. 
+
+3. Search page test:
+    - 1. Search by photo type and see if you can manipulate it as normal.
+    - 2. Search by people type and check if you can follow and jump to that people's page.
+    - 3. Search by people type and check if you can join and jump to that group's page. (Can verify at 4.4.1)
+
+4. User page test:
+    - 1. Camera Roll Tab:
+        - 1. Turn on auto upload and see if your picture show at camera roll tab. (And check at 4.3.1)
+        - 2. Change picture privacy and check it. (Can verify at 4.2.1)
+        - 3. Add picture to album and check it. (Can verify at 4.3.2)
+        - 4. Delete a picture and check it.
+        - 5. Share a picture and check it.
+    - 2. Public Tab:
+        - 1. Switch layout mode and check if it works correctly.
+        - 2. Change view privacy and check if it works correctly.
+    - 3. Albums Tab:
+        - 1. Check if auto upload picture save to this album.
+        - 2. Check picture upload to album correctly.
+        - 3. Rename an album and check it.
+        - 4. Share an album and check it.
+        - 5. Delete an album and check it.
+    - 4. Groups Tab:
+        - 1. Check if group you joined show up here.
+    - 5. About Tab:
+        - 1. Setting your profile and check if it set correctly.
+
+5. Notification page test:
+    - 1. Check be followed notification.
+    - 2. Check your photo be faved notification.
+    - 3. Check comment related notification.
+
+6. Camera page test:
+    - 1. Using photo gallery to upload media.
+    - 2. Taking a picture and upload.
+    - 3. Taking a video and upload.
+
